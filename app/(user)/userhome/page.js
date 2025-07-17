@@ -1,11 +1,13 @@
+import Link from 'next/link';
+
 const Userhome = () => {
   return (
     <>
       <div className="userhome-container">
         <div className="header">
-          <a href="/userhome">Home</a>
-          <a href="/blog">Blog</a>
-          <a href="/userlogin">Login</a>
+          <Link href="/userhome">Home</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/userlogin">Login</Link>
         </div>
 
         <div className="userhome-content">
