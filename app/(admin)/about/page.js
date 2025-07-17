@@ -1,18 +1,19 @@
-const About = ()=>{
-    return(
-       <div className="about-container">
-      <h1>Welcome to Our Food Blog!</h1>
+const About = () => {
+  return (
+    <div className="about-container">
+      <h1>Welcome to Our Food Blog</h1>
       <p>
-        Here at <strong>Tasty Tales</strong>, we share simple and delicious recipes that bring joy to every meal.
-        Whether you're a beginner in the kitchen or a seasoned cook, our blog is the perfect place to discover new dishes,
-        tips, and inspiration.
+        At <strong>Tasty Tales</strong>, we share easy and tasty recipes that bring happiness to every meal.
+        Whether you are new to cooking or already experienced, this blog is the perfect place to learn new ideas,
+        tips, and get inspired.
       </p>
       <p>
-        From traditional family recipes to quick bites and healthy meals — we cover it all! Join us on our tasty journey
-        and bring flavor to your table every day.
+        From classic dishes to quick snacks and healthy meals, we have something for everyone. Join us on this journey
+        to add more taste to your everyday food.
       </p>
-      <p>🍲 Cook with love. Eat with joy. Repeat!</p>
+      <p>🍲 Cook with care. Eat with joy. Repeat.</p>
     </div>
-    )
+  );
 };
+
 export default About;
